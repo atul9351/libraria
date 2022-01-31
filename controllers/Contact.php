@@ -1,0 +1,10 @@
+<?php
+
+class Contact extends CI_Controller
+{
+	
+	function index()
+	{
+		website($this->load->view('public/contact','',true));
+	}
+}
